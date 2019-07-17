@@ -108,4 +108,3 @@ WHERE favorite_color IN('Yellow', 'Purple')
 ```
 
 ## Table -
-````
