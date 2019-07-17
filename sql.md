@@ -14,7 +14,8 @@
 
 #### Remember to not include the person_id because it should auto-increment.
 
-```INSERT INTO person (name, age, height, city, favorite_color)
+```
+INSERT INTO person (name, age, height, city, favorite_color)
 VALUES ('Charlie', 27, 168, 'Orlando', 'Blue'),
 ('Matt', 23, 174, 'Dublin', 'Red'),
 ('John', 63, 181, 'Boston', 'Gold'),
@@ -24,63 +25,87 @@ VALUES ('Charlie', 27, 168, 'Orlando', 'Blue'),
 
 ### List all the people in the person table by height from tallest to shortest.
 
-```SELECT * FROM person
+```
+SELECT * FROM person
 ORDER BY height DESC
 ```
 
 ### List all the people in the person table by height from shortest to tallest.
 
-```SELECT * FROM person
+```
+SELECT * FROM person
 ORDER BY height
 ```
 
 ### List all the people in the person table by age from oldest to youngest.
 
-````SELECT * FROM person
-ORDER BY age DESC ```
+````
+SELECT * FROM person
+ORDER BY age DESC
+```
 
 ### List all the people in the person table older than age 20.
 
-``` SELECT * FROM person
-WHERE age > 20 ```
+```
+SELECT * FROM person
+WHERE age > 20
+```
 
 ### List all the people in the person table that are exactly 18.
 
-``` SELECT * FROM person
-WHERE age = 18 ```
+```
+SELECT * FROM person
+WHERE age = 18
+```
 
 ### List all the people in the person table that are less than 20 and older than 30.(Is this a typo?)
 
-``` SELECT * FROM person
-WHERE age < 20 AND age > 30```
+```
+SELECT * FROM person
+WHERE age < 20 AND age > 30
+```
 
 ### List all the people in the person table that are not 27 (Use not equals).
 
-``` SELECT * FROM person
-WHERE age != 27```
+```
+SELECT * FROM person
+WHERE age != 27
+```
 
 ### List all the people in the person table where their favorite color is not red.
 
-```SELECT * FROM person
-WHERE favorite_color != 'Red' ```
+```
+SELECT * FROM person
+WHERE favorite_color != 'Red'
+```
 
 ### List all the people in the person table where their favorite color is not red and is not blue.
 
-``` SELECT * FROM person
-WHERE favorite_color != 'Red' AND favorite_color != 'Blue' ```
+```
+SELECT * FROM person
+WHERE favorite_color != 'Red' AND favorite_color != 'Blue'
+```
 
 ### List all the people in the person table where their favorite color is orange or green.
 
-``` SELECT * FROM person
-WHERE favorite_color = 'Orange' OR favorite_color != 'GREEN' ```
+```
+SELECT * FROM person
+WHERE favorite_color = 'Orange' OR favorite_color != 'GREEN'
+```
 
 ### List all the people in the person table where their favorite color is orange, green or blue (use IN).
 
-``` SELECT * FROM person
-WHERE favorite_color IN('Orange', 'Green', 'Blue') ```
+```
+SELECT * FROM person
+WHERE favorite_color IN('Orange', 'Green', 'Blue')
+```
 
 ### List all the people in the person table where their favorite color is yellow or purple (use IN).
 
-``` SELECT * FROM person
-WHERE favorite_color IN('Yellow', 'Purple') ```
+```
+SELECT * FROM person
+WHERE favorite_color IN('Yellow', 'Purple')
+```
+
+## Table -
 ````
