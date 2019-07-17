@@ -39,7 +39,7 @@ ORDER BY height
 
 ### List all the people in the person table by age from oldest to youngest.
 
-````
+```
 SELECT * FROM person
 ORDER BY age DESC
 ```
